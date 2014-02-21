@@ -1,0 +1,23 @@
+{
+    "name": "janus-ssp/oauth-server-bundle",
+    "type": "symfony-bundle",
+    "description": "Oauth server Bundle for janus",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.3.3",
+        "janus-ssp/janus": "*",
+        "friendsofsymfony/oauth-server-bundle": "1.4.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Janus\\ServiceRegistry\\Bundle\\OauthServerBundle": ""
+        }
+    },
+    "target-dir": "Janus/ServiceRegistry/Bundle/OauthServerBundle",
+    "authors": [
+        {
+            "name": "Lucas van Lierop",
+            "email": "lucas@vanlierop.org"
+        }
+    ]
+}
